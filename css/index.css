@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+*{
+    margin: 0;
+}
+ 
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     align-items: center;  
+     height: 100px;
+}
+.nav-items{
+    flex-grow: .5;
+     display: flex;
+    flex-direction: row;  
+    justify-content: space-around;  
+    /* width: 100%; */ 
+     margin: 0 100px;
+}
+.nav-item{
+    /* padding: 10px 20px; */
+    font-size: 20px;
+    font-weight: 200; 
+}
+
+ 
+.active-item{
+     color: #FE5E35;
+    font-family: "Fredoka+One",sans-serif;   
+    font-weight: 700; 
+} 
+ 
+ 
+[alt="actions" ]{ 
+    height: 45px;
+}
+
+.intro-section{ 
+    display: flex;
+    position: relative;
+}
+.left-section{  
+    display: flex;
+    flex-direction: column; 
+   margin: 0px 0px  0px 40px;
+   font-family: "Poppins",sans-serif; 
+   z-index: 1;  
+   position: relative;
+   top: 50px;
+}
+h3{
+    font-size: 50px;
+    font-weight: 200;
+}
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Fredoka One",sans-serif; 
+}
+.sub-headlines{
+    position: relative;
+    left: 50px;  
+    padding: 20px; 
+    top: 25px;
+}
+.sub-headline{
+    padding: 5px;
+    font-size: 20px; 
+    font-weight: 200;
+}
+[alt="plus"]{
+    background-color: #FE5E35;
+    padding: 7px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+}
+
+.text{ 
+    font-family: "Poppins",sans-serif; 
+    font-size: 15px;
+    font-weight: 100;
+    position: relative; 
+    margin-top: 90px;
+    color: #BFBFBF;
+
+}
+
+.action-btns{
+    position: relative;
+    top: 70px;  
+}
+.action-btn-left{ 
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #FE5E35;
+    padding: 10px 40px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+.right-section{
+    border: 2px pink;
+    font-family: "Fredoka+One",sans-serif; 
+}
+[alt="headphone"]{
+    position:relative;
+    height: 550px;
+    bottom: 270px;
+    right: 100px;
+}
+.discount{
+    position: relative;
+    z-index: 1;
+    right: 140px;
+    height: 160px;
+    top: 290px;
+}
+.discount-content{
+    position: relative;
+    z-index: 2;
+    top: 160px;
+    right: 110px;
+    color: #ffffff;
+}
+.discount-content>h2{
+    font-size: 55px;
+}
+.discount-content>h4{
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.dots{
+    display: flex;
+    position: relative;
+    bottom: 240px;
+    left: 90px;
+}
+.dot{
+    width: 35px;
+    height: 35px; 
+    border-radius: 50%; 
+    margin-right: 20px;
+}
+.yellow-dot{
+    background-color: yellow;
+}
+.tomato-dot{
+    background-color: tomato;
+}
+.black-dot{
+    background-color: black;
+}
+.action-btn-right{
+    position: relative;
+    bottom :200px; 
+    left:75px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #FE5E35;
+    padding: 10px 40px;
+    background-color: #FE5E35;
+    border: none;
+    border-radius: 20px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
