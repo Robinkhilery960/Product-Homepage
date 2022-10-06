@@ -3,6 +3,9 @@
     margin: 0;
 }
  
+.fa-bars{
+    display: none;
+}
 nav{
     display: flex;
     flex-direction: row;
@@ -10,6 +13,7 @@ nav{
      align-items: center;  
      height: 100px;
 }
+
 .nav-items{
     flex-grow: .5;
      display: flex;
@@ -170,6 +174,51 @@ h1{
 }
  
 
+
+
+
+
+@media screen and (max-width:1250px) {
+    .intro-section{ 
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        position: relative;
+    }
+    .right-section{ 
+        position: relative;
+        left: 100px;
+        top: 50px;
+    }
+    .left-section{  
+         align-items: center;
+    }
+    .text{ 
+        width: 60%;
+    
+    }
+
+    [alt="logo"],[alt="actions"]{
+         display:none;
+    }
+
+    .nav-items{
+        width: 80%;
+    }
+     
+    .fa-bars{
+        width: 20%;
+        display: inline;
+        color: #000000;
+        font-size: 50px;
+        position: relative;
+        bottom: 70px;
+        left: 20px;
+    }
+     
+
+}
+ 
 
 
 
